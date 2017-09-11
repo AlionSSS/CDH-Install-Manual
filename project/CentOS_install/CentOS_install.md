@@ -33,7 +33,7 @@
 
 ![详细设置截图](./edit_detail.png)
 
-- 选择自定义安装
+- 选择自定义安装（不一定要选Desktop，实际生产环境不需要UI桌面）
 
 ![自定义安装截图](./custom_package.png)
 
