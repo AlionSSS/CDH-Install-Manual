@@ -7,10 +7,10 @@
 	- Cloudera Distribute Hadoop （实际集群的组件等）
 
 ## 安装包下载
-- [CentOS-6.5-x86_64](./CentOS_download/CentOS_download.md)
-- [CM安装包](./CM_download/CM_download.md)
-- [CDH安装包](./CDH_download/CDH_download.md)
-- [MySQL的JDBC包](./MySQL_JDBC_download/MySQL_JDBC_download.md)
+- [CentOS-6.5-x86_64](./project/download/CentOS_download/CentOS_download.md)
+- [CM安装包](./project/download/CM_download/CM_download.md)
+- [CDH安装包](./project/download/CDH_download/CDH_download.md)
+- [MySQL的JDBC包](./project/download/MySQL_JDBC_download/MySQL_JDBC_download.md)
 - Cloudera提供的JDK安装包（上面的CM包中自带JDK安装包）
 
 	**注：1.Centos必须是64位 2.CM版本应大于等于CDH版本 3.JDK尽量选Cloudera提供的**
@@ -22,4 +22,3 @@
 ## CM安装
 
 ## CDH安装
-
