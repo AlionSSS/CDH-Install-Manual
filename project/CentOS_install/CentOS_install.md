@@ -21,7 +21,7 @@
 
 ![选择 English截图](./select_english.png)
 
-- 主机域名、静态IP
+- 主机域名、网络配置
 
 ![主机域名、静态IP截图](./localhost_static_ip.png)
 
