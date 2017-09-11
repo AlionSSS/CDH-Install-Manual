@@ -16,6 +16,7 @@
 	**注：1.Centos必须是64位 2.CM版本应大于等于CDH版本 3.JDK尽量选Cloudera提供的**
 
 ## CentOS安装
+- [点我查看安装详细内容](./project/CentOS_install/CentOS_install.md)
 
 ## 环境准备
 
