@@ -18,29 +18,37 @@
 
 ## 安装截图参考
 - 选择 English
+
 ![选择 English截图](./select_english.png)
 
 - 主机域名、静态IP
+
 ![主机域名、静态IP截图](./localhost_static_ip.png)
 
 - 选择 编辑网卡eth0
+
 ![选择 编辑网卡eth0截图](./edit_eth0.png)
 
 - 编辑网卡eth0 详细设置
+
 ![详细设置截图](./edit_detail.png)
 
-
 - 选择自定义安装
+
 ![自定义安装截图](./custom_package.png)
 
 - 去掉安装java
+
 ![去掉安装java截图](./select_un_java.png)
 
 - 安装MySQL
+
 ![安装MySQL截图](./select_mysql.png)
 
 - 安装FTP
+
 ![安装FTP截图](./select_FTP.png)
 
 - 安装web service
+
 ![安装web service截图](./select_web_service.png)
