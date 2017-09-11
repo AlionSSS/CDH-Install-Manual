@@ -34,21 +34,21 @@
 ![详细设置截图](./edit_detail.png)
 
 - 选择自定义安装（不一定要选Desktop，实际生产环境不需要UI桌面）
-
+ 
 ![自定义安装截图](./custom_package.png)
 
-- 去掉安装java
+- 不勾选java
 
 ![去掉安装java截图](./select_un_java.png)
 
-- 安装MySQL
-
+- 勾选MySQL
+ 
 ![安装MySQL截图](./select_mysql.png)
 
-- 安装FTP
+- 勾选FTP
 
 ![安装FTP截图](./select_FTP.png)
 
-- 安装web service
+- 勾选web service
 
 ![安装web service截图](./select_web_service.png)
