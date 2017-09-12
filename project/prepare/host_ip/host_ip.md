@@ -25,7 +25,7 @@
 	- 截图
 
 	![静态IP截图](ip.png)
-- 重启网络 $ service network restart
+	- 重启网络 $ service network restart
 
 ### 配置hosts文件
 - 修改5台服务器的hosts文件
