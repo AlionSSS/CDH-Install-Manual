@@ -16,7 +16,7 @@
 3. 如果可以连接外网，可以从Cloudera的云端服务器获取安装包
 
 ### 服务器部署分配
-实验5台服务器: elephant, tiger, horse, monkey, lion
+实验用5台服务器名称: elephant, tiger, horse, monkey, lion
 - Manager Service服务器: lion
 	- Manager Service
 	- MySQL数据库
