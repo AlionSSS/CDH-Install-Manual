@@ -15,6 +15,7 @@
 	- 关机后将永久生效
 	- 临时生效命令 $ hostname elephant
 - 截图
+
 ![hostname截图](hostname.png)
 
 ### 配置静态IP
@@ -22,6 +23,7 @@
 - 示例 elephant
 	- $ vim /etc/sysconfig/network-scripts/ifcfg-eth0
 - 截图
+
 ![静态IP截图](ip.png)
 - 重启网络 $ service network restart
 
@@ -30,6 +32,7 @@
 - 示例 elephant
 	- $ vim /etc/hosts
 - 截图
+
 ![hosts截图](hosts.png)
 	
 
