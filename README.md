@@ -20,8 +20,8 @@
 
 ## 环境准备
 1. [架构理解，准备服务器](./project/prepare/cm_framework/cm_framework.md)
-2. 配置hostname、网卡静态IP、节点hosts文件
-3. 关闭防火墙，关闭iptables、ip6tables
+2. [关闭防火墙](./project/prepare/stop_firewall/stop_firewall.md)
+3. [配置hostname、静态IP、hosts文件](./project/prepare/host_ip/host_ip.md)
 4. 关闭selinux
 5. swapness
 6. 内存问题/sys/kernel/mm/redhat_transparent_hugepage/defrag
@@ -35,5 +35,7 @@
 ## CM安装
 1. 开始安装CM5
 2. 安装每个节点的Agent
+
+## CDH安装
 
 ## CDH安装
