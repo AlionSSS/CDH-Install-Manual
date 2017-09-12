@@ -18,7 +18,7 @@
 ### 服务器部署分配
 实验5台服务器: elephant, tiger, horse, monkey, lion
 - Manager Service服务器: lion
-	- Manager Servic
+	- Manager Service
 	- MySQL数据库
 	- HTTP协议仓库（Apache）
 - Agent服务器: elephant, tiger, horse, monkey
