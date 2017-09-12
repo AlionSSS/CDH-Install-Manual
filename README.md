@@ -19,7 +19,21 @@
 - [点我查看安装详细内容](./project/CentOS_install/CentOS_install.md)
 
 ## 环境准备
+1. [架构理解，准备服务器](./project/prepare/cm_framework/cm_framework.md)
+2. 配置hostname、网卡静态IP、节点hosts文件
+3. 关闭防火墙，关闭iptables、ip6tables
+4. 关闭selinux
+5. swapness
+6. 内存问题/sys/kernel/mm/redhat_transparent_hugepage/defrag
+7. 配置ssh免密钥登录
+8. 安装Java
+9. JDBC 放置到CM service服务器的 /usr/share/java下
+10. MySQL安装
+11. 检查所有节点NTP
+12. 配置HTTP协议仓库
 
 ## CM安装
+1. 开始安装CM5
+2. 安装每个节点的Agent
 
 ## CDH安装
