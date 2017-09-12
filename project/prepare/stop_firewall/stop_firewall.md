@@ -3,12 +3,12 @@
 开启防火墙，可以阻止非指定的端口的外部访问，有利于系统安全。但是CDH集群涉及端口过多，建议新手先完全关闭防火墙，保证CDH的正常安装、连接。
 
 ### 关闭iptables
-- 包括elephant, tiger, horse, monkey, lion
+- 在每一台服务器执行
 - 关闭服务 $ service iptables stop
 - 关闭开机自启 $ chkconfig iptables off
 
 ### 关闭ip6tables
-- 包括elephant, tiger, horse, monkey, lion
+- 在每一台服务器执行
 - 关闭服务 $ service ip6tables stop
 - 关闭开机自启 $ chkconfig ip6tables off
 
