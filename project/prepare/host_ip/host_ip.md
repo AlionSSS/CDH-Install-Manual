@@ -14,28 +14,27 @@
 	- 编辑HOSTNAME=elephant, 保存
 	- 关机后将永久生效
 	- 临时生效命令 $ hostname elephant
-- 截图
+	- 截图
 
-![hostname截图](hostname.png)
+	![hostname截图](hostname.png)
 
 ### 配置静态IP
 - 修改5台服务器各自对应的静态IP
 - 示例 elephant
 	- $ vim /etc/sysconfig/network-scripts/ifcfg-eth0
-- 截图
+	- 截图
 
-![静态IP截图](ip.png)
+	![静态IP截图](ip.png)
 - 重启网络 $ service network restart
 
 ### 配置hosts文件
 - 修改5台服务器的hosts文件
 - 示例 elephant
 	- $ vim /etc/hosts
-- 截图
+	- 截图
 
-![hosts截图](hosts.png)
+	![hosts截图](hosts.png)
 	
-
 ### 网络测试
 在每台服务器执行以下命令，确定网络配置正确
 - 确定本机域名 
