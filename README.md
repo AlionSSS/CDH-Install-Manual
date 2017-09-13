@@ -5,6 +5,8 @@
 - Cloudera发行版安装主要分为2个部分：
 	- Cloudera Manager （对于集群的管理、部署等）
 	- Cloudera Distribute Hadoop （实际集群的组件等）
+- Cloudera官方文档(推荐)
+	- https://www.cloudera.com/documentation/enterprise/latest.html 
 
 ## 安装包下载
 - [CentOS-6.5-x86_64](./project/download/CentOS_download/CentOS_download.md)
@@ -22,9 +24,9 @@
 1. [架构理解，准备服务器](./project/prepare/cm_framework/cm_framework.md)
 2. [关闭防火墙](./project/prepare/stop_firewall/stop_firewall.md)
 3. [配置hostname、静态IP、hosts文件](./project/prepare/host_ip/host_ip.md)
-4. 关闭selinux
-5. swapness
-6. 内存问题/sys/kernel/mm/redhat_transparent_hugepage/defrag
+4. [关闭SELinux](./project/prepare/disabling_SELinux/disabling_SELinux.md)
+5. [修改swapness](./project/prepare/swappiness/swappiness.md)
+6. [内存问题，关闭THP](./project/prepare/disabling_transparent_hugepages/disabling_transparent_hugepages.md)
 7. 配置ssh免密钥登录
 8. 安装Java
 9. JDBC 放置到CM service服务器的 /usr/share/java下
