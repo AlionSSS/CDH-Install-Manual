@@ -4,6 +4,7 @@
 ### 操作
 1. 如果你已经按照[CentOS安装](../../CentOS_install/CentOS_install.md)的步骤中指出的勾选了MySQL选项，那么请跳转至第3步，否则从第2步开始
 2. 下载与安装MySQL
+	- 本次选择的服务器是将要安装CM的服务器lion
 	- 从官网下载https://dev.mysql.com/downloads/mysql/
 	- 选择需满足两点：1.MySQL Community Server 5.5.58 2.Red Hat Linux 6
 	- 下载RPM Bundle
@@ -11,6 +12,7 @@
 	- 使用rpm -ivh安装所有下载的rpm包
 	- 附：[下载与安装可供参考的链接](http://www.linuxidc.com/Linux/2015-01/111413.htm)
 3. 准备
+	- 本次选择的服务器是将要安装CM的服务器lion
 	- 启动mysqld服务 $ service mysqld start
 	- 初次登录mysql数据库 $ mysql -u root -p (注：初次登录不需要密码，直接按Enter即可)
 	- 建库建用户，执行sql语句(为后续将要使用到的组件创建库、用户)
