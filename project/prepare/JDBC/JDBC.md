@@ -5,6 +5,7 @@
 1. 下载
 	- 请参考[安装包下载-MySQL的JDBC包](../../download/MySQL_JDBC_download/MySQL_JDBC_download.md)步骤
 2. 上传
+	- 切换到将要安装CM的服务器lion上 
 	- 解压mysql-connector-java-5.1.44.tar.gz，并修改其名称为mysql-connector-java.jar
 	- 在本地开启你的FTP软件，这里我们采用XFtp
 	- 上传mysql-connector-java.jar至/usr/share/java目录下
