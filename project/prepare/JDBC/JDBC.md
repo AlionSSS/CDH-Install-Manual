@@ -12,7 +12,7 @@
 
 ### 可能出现的问题
 - 兼容性问题：MySQL版本和mysql-connector-java.jar可能出现版本不兼容问题，详情请于[MySQL官网](https://www.mysql.com/)查询
-- 上传失败：用户权限不够，请切换至root账户再上传。或者先上传至本用户目录下，在使用sudo mv命令将其移动至/usr/share/java目录下
+- 上传失败：用户权限不够，请切换至root账户再上传。或者先上传至本用户目录下，再使用sudo mv命令将其移动至/usr/share/java目录下
 
 ### 截图
 - mysql-connector-java.jar上传的位置
