@@ -41,7 +41,7 @@
 ## CDH安装
 
 ## 界面预览
-![Cloudera-Hadoop-Manager截图](./images/Cloudera-Hadoop-Manager.png)
+![Cloudera-Manager截图](./images/Cloudera-Hadoop-Manager.png)
 
 ## LICENSE
 ```
