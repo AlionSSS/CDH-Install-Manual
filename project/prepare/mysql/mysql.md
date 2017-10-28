@@ -37,16 +37,20 @@
 
 ### 截图
 - 下载与安装MySQL
+
 ![下载与安装MySQL截图1](./mysql_download1.png)
 ![下载与安装MySQL截图2](./mysql_download2.png)
 ![下载与安装MySQL截图3](./mysql_tar_rpm.png)
 
 - 启动mysqld服务
+
 ![启动mysqld服务截图](./mysqld_start.png)
 
 - 初次登录mysql数据库
+
 ![初次登录mysql数据库截图](./mysql_login.png)
 
 - MySQL安装设置初始化
+
 ![安装设置初始化截图](./mysql_secure1.png)
 ![安装设置初始化截图](./mysql_secure2.png)
