@@ -29,7 +29,7 @@
 6. [内存问题，关闭THP](./project/prepare/disabling_transparent_hugepages/disabling_transparent_hugepages.md)
 7. [配置ssh免密码登录](./project/prepare/ssh/ssh.md)
 8. [安装Java](./project/prepare/install_java/install_java.md)
-9. JDBC 放置到CM service服务器的 /usr/share/java下
+9. [上传JDBC包](./project/prepare/JDBC/JDBC.md)
 10. MySQL安装
 11. 检查所有节点NTP
 12. 配置HTTP协议仓库
