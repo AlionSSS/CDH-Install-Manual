@@ -30,7 +30,7 @@
 7. [配置ssh免密码登录](./project/prepare/ssh/ssh.md)
 8. [安装Java](./project/prepare/install_java/install_java.md)
 9. [上传JDBC包](./project/prepare/JDBC/JDBC.md)
-10. MySQL安装
+10. [MySQL安装与准备](./project/prepare/mysql/mysql.md)
 11. 检查所有节点NTP
 12. 配置HTTP协议仓库
 
