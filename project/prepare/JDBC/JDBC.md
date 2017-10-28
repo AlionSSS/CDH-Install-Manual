@@ -1,5 +1,5 @@
 ## 上传JDBC包
-由于我们使用的MySQL数据库，所以采用了MySQL官网提供的JDBC包(mysql-connector-java-5.1.44.tar.gz)，为集群的组件运行提供了数据库调用的API
+由于我们使用的MySQL数据库，所以采用了MySQL官网提供的JDBC包（mysql-connector-java-5.1.44.tar.gz），为集群的组件（例如Hive、Sqoop等）运行提供了数据库调用的API
 
 ### 操作
 1. 下载
