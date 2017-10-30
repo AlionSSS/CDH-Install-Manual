@@ -31,7 +31,7 @@
 8. [安装Java](./project/prepare/install_java/install_java.md)
 9. [上传JDBC包](./project/prepare/JDBC/JDBC.md)
 10. [MySQL安装与准备](./project/prepare/mysql/mysql.md)
-11. 检查所有节点NTP
+11. [NTP时间同步](./project/prepare/ntp/ntp.md)
 12. 配置HTTP协议仓库
 
 ## CM安装
