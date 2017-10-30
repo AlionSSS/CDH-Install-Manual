@@ -15,10 +15,11 @@ NTP服务为集群提供了时间同步服务，在CDH集群中各个组件需�
 	2. 查看同步状态 $ ntpstat
 	3. 如果出现 synchronised to NTP server (192.168.112.101) 即同步成功
 	4. 查看当前同步设置 $ ntpq -q 
-- **注意事项：**
-	1. 网段与IP请参考自身情况设置 
-	2. 启动NTP服务后，如果要查看同步状态，需要等待约为5-10分钟，才能看到synchronised已同步字段
-	3. 如果仍未显示synchronised，请尝试重启NTP服务 $ service ntpd restart
+	
+**注意事项：**
+1. 网段与IP请参考自身情况设置 
+2. 启动NTP服务后，如果要查看同步状态，需要等待约为5-10分钟，才能看到synchronised已同步字段
+3. 如果仍未显示synchronised，请尝试重启NTP服务 $ service ntpd restart
 	
 ### 可供参考的链接
 - [配置NTP服务ntpd/ntp.conf（搭建Hadoop集群可参考）](http://blog.csdn.net/bluishglc/article/details/41413031)
