@@ -21,5 +21,5 @@
 	- Manager Service
 	- MySQL数据库
 	- HTTP协议仓库（Apache）
-- Agent服务器: elephant, tiger, horse, monkey
+- Agent服务器: elephant, tiger, horse, monkey, lion
 	- Agent
