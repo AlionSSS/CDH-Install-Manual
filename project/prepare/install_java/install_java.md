@@ -38,9 +38,6 @@ Java有很多版本，虽然多数版本都能让CDH集群运行起来，但是�
 
 ![java安装位置截图](java_location.png)
 
-- 配置Java环境变量
-
-![Java环境变量截图](java_home.png)
 
 - 配置Java环境变量
 
