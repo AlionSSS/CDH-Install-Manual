@@ -32,7 +32,7 @@
 9. [上传JDBC包](./project/prepare/JDBC/JDBC.md)
 10. [MySQL安装与准备](./project/prepare/mysql/mysql.md)
 11. [NTP时间同步](./project/prepare/ntp/ntp.md)
-12. 配置HTTP协议仓库
+12. [配置HTTP协议仓库](./project/prepare/http/http.md)
 
 ## CM安装
 1. 开始安装CM5
