@@ -4,7 +4,7 @@
 ![CM架构图](cm_framework.png)
 
 ### 架构简介
-1. 主要由1台Manager Service服务器（图中间部分）和多台台CM Agent服务器（图下部分）构成
+1. 主要由1台Manager Service服务器（图中间部分）和多台CM Agent服务器（图下部分）构成
 2. 1台Manager Service服务器控制多台Agent服务器
 	- Manager Servic服务器装有: CM Service、关系型Database、安装包仓库（图上中部分）
 	- Agent服务器装有: CM Agent
