@@ -25,7 +25,7 @@
 2. [关闭防火墙](./project/prepare/stop_firewall/stop_firewall.md)
 3. [配置hostname、静态IP、hosts文件](./project/prepare/host_ip/host_ip.md)
 4. [关闭SELinux](./project/prepare/disabling_SELinux/disabling_SELinux.md)
-5. [修改swapness](./project/prepare/swappiness/swappiness.md)
+5. [修改swapiness](./project/prepare/swappiness/swappiness.md)
 6. [内存问题，关闭THP](./project/prepare/disabling_transparent_hugepages/disabling_transparent_hugepages.md)
 7. [配置ssh免密码登录](./project/prepare/ssh/ssh.md)
 8. [安装Java](./project/prepare/install_java/install_java.md)
