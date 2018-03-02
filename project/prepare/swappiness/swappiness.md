@@ -15,7 +15,7 @@ Linux 会使用硬盘的一部分做为SWAP分区，充当硬盘缓存。swappin
 注：Redhat6可以修改为0，Redhat7不支持修改为0
 
 ### 参考资料
-- [Cloudera的Optimizing Performance in CDH资料地址](https://www.cloudera.com/documentation/enterprise/5-9-x/topics/cdh_admin_performance.html#cdh_performance__section_xpq_sdf_jq)
+- [Cloudera的Optimizing Performance in CDH](https://www.cloudera.com/documentation/enterprise/5-9-x/topics/cdh_admin_performance.html#cdh_performance__section_xpq_sdf_jq)
 
 ### 操作截图
 - 查看和修改swappiness
