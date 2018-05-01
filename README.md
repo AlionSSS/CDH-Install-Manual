@@ -35,8 +35,8 @@
 12. [配置HTTP协议仓库](./project/prepare/http/http.md)
 
 ## CM安装
-1. 开始安装CM5
-2. 安装每个节点的Agent
+1. [开始安装CM5](./project/setup/cm.md)
+2. [安装每个节点的Agent](./project/setup/cm.md)
 
 ## CDH安装
 
