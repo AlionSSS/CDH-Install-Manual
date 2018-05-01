@@ -39,6 +39,8 @@
 2. [安装每个节点的Agent](./project/setup/cm.md)
 
 ## CDH安装
+[坑位（暂时请在网上搜索一下吧，很简单的=W=~CDH几乎就是哪里不会点哪里~so~easy!^_^~!）](https://github.com/AlionSSS/CDH-Install-Manual)
+也可以联系我!=3=~ QQ: 444066154
 
 ## 界面预览
 ![Cloudera-Manager截图](./images/Cloudera-Hadoop-Manager.png)
