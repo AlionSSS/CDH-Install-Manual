@@ -4,6 +4,7 @@
 	- java 检查version、JAVA_HOME、PATH
 	- python 检查是否是2.X版本
 	- mysql 检查安全、是否启动等
+	- Apache/其他 HTTP仓库是否开启
 	- 其他问题
 2. lion 开始安装CM server
 	 - 安装 $ sudo rpm -ivh cloudera-manager-daemons cloudera-manager-server
