@@ -17,7 +17,8 @@
 3. 准备
 	- 本次选择的服务器是将要安装CM的服务器lion
 	- 启动mysqld服务 $ service mysqld start(或者/usr/sbin/mysqld --user=root)
-	- 初次登录mysql数据库 $ mysql -u root -p (注：初次登录不需要密码，直接按Enter即可)
+	- MySQL安装设置初始化（详情请看截图） $ sudo /usr/bin/mysql_secure_installation
+	- 初次登录mysql数据库 $ mysql -u root -p ,输入前一步改好的密码
 	- 建库建用户，执行sql语句(为后续将要使用到的组件创建库、用户)
 	```sql
 	CREATE DATABASE cmserver DEFAULT CHARACTER SET utf8;
@@ -38,7 +39,7 @@
 	CREATE DATABASE hue DEFAULT CHARACTER SET utf8;
 	GRANT ALL on hue.* TO 'hueuser'@'%' IDENTIFIED BY 'password';
 	```
-	- MySQL安装设置初始化（详情请看截图） $ sudo /usr/bin/mysql_secure_installation
+	
 
 ### 截图
 - 下载与安装MySQL
