@@ -4,9 +4,9 @@
 ### 操作
 1. 在CM Service的服务器（lion）上生成公钥、私钥
 	- lion(非root，普通账户)下执行:
-		- $ cd ~/.ssh
 		- $ ssh-keygen -t rsa 
 		- 回车、回车、回车（全部默认，或者你也可以设定passphrase，这样的话，在后面安装集群时需要你填写passphrase）
+		- $ cd ~/.ssh
 		- $ ls 查看当前目录下生成的密钥、公钥	
 2. 将公钥上传到要登录的服务器的root账户（elephant tiger horse monkey lion）
 	- lion(非root，普通账户)下执行:
