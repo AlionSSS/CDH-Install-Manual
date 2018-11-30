@@ -9,7 +9,10 @@
 	- 选择需满足两点：1.MySQL Community Server 5.5.58 2.Red Hat Linux 6
 	- 下载RPM Bundle
 	- 使用tar -xvf解压RPM Bundle，生成的文件包括几个RPM包
-	- 使用rpm -ivh安装所有下载的rpm包
+	- 使用rpm -ivh安装所有下载的rpm包，操作如下
+		1.找到冲突的包 $rpm -aq | grep mysql
+		2.卸载冲突的包 $rpm -e --nodeps mysql-libs-5.1.71-1.el6.x86_64(对应上面的结果)
+		3.依次安装mysql-community-common、mysql-community-libs、mysql-community-libs-compat、mysql-community-devel、mysql-community-client、mysql-community-server
 	- 附：[下载与安装可供参考的链接](http://www.linuxidc.com/Linux/2015-01/111413.htm)
 3. 准备
 	- 本次选择的服务器是将要安装CM的服务器lion
