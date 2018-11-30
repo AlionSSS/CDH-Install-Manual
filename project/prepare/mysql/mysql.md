@@ -3,7 +3,7 @@
 
 ### 操作
 1. 如果你已经按照[CentOS安装](../../CentOS_install/CentOS_install.md)的步骤中指出的勾选了MySQL选项，那么请跳转至第3步，否则从第2步开始
-2. 下载与安装MySQL(关于版本的选择，可参考[Cloudera官方文档](https://www.cloudera.com/documentation/enterprise/release-notes/topics/rn_consolidated_pcm.html#cdh_cm_supported_db))
+2. 下载与安装MySQL(关于版本的选择，可参考[Cloudera官方文档MySQL Support across CM/CDH 5 Releases](https://www.cloudera.com/documentation/enterprise/release-notes/topics/rn_consolidated_pcm.html#cdh_cm_supported_db))
 	- 本次选择的服务器是将要安装CM的服务器lion
 	- 从官网下载https://dev.mysql.com/downloads/mysql/
 	- 选择需满足两点：1.MySQL Community Server 5.5.58 2.Red Hat Linux 6
