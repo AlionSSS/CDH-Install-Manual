@@ -16,7 +16,7 @@
 	- 附：[下载与安装可供参考的链接](http://www.linuxidc.com/Linux/2015-01/111413.htm)
 3. 准备
 	- 本次选择的服务器是将要安装CM的服务器lion
-	- 启动mysqld服务 $ service mysqld start
+	- 启动mysqld服务 $ service mysqld start(或者/usr/sbin/mysqld --user=root)
 	- 初次登录mysql数据库 $ mysql -u root -p (注：初次登录不需要密码，直接按Enter即可)
 	- 建库建用户，执行sql语句(为后续将要使用到的组件创建库、用户)
 	```sql
