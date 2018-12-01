@@ -11,6 +11,8 @@
 6. 创建/var/www/html/cdh目录，将cdh包放入该目录
 7. 使用浏览器访问http仓库 http://owo/cm 和 http://owo/cdh
 
+注：请严格按照截图中的路径存放cm和cdh包
+
 ### 操作截图
 - 开启httpd服务
 
