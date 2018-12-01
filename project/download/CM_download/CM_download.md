@@ -1,7 +1,7 @@
 ## Cloudera Manager 下载
 
 ### 版本
-- CM5.12.1
+- CM5.12.1 （目前最新的演示部分使用的5.16.1，你也可以下载该版本）
 
 ### 下载地址 
 - http://archive.cloudera.com/cm5/repo-as-tarball/5.12.1/
