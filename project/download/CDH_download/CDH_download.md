@@ -1,7 +1,7 @@
 ## Cloudera Distribute Hadoop 下载
 
 ### 版本
-- CDH-5.12.1-1
+- CDH-5.12.1-1 （目前最新的演示部分使用的5.16.1，你也可以下载该版本）
 
 ### 下载地址 
 - http://archive.cloudera.com/cdh5/parcels/5.12.1/
