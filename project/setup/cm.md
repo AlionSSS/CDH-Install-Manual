@@ -22,7 +22,7 @@
 		- 添加本地http服务仓库地址http://lion:8000
 	- 配置Cloudera Manager Agent仓库 http://lion:8050
 	- 配置ssh免密登录（前面已经配置过）
-	- 如果需要非root执行，需要配置对应用户的“免密码执行sudo”权限（自行百度）
+	- 如果需要非root执行，需要配置对应用户的“免密码执行sudo”权限（在/etc/sudoers中添加jerry   ALL=(ALL)       NOPASSWD:ALL）
 	- 5台动物服务器，mv /etc/yum.repos.d/CentOS-* /etc/yum.repos.d/bak/
 	- 点击ok安装Agent，继续
 4. Get2EC2 VM浏览器 安装 hadoop集群 CDH
