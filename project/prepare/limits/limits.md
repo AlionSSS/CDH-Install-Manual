@@ -14,3 +14,7 @@ Linux默认可以打开的文件数量最大数量是1024，作为大数据服�
 - 修改所有用户的限制（推荐只做单个用户的修改，不做全部的修改）
   - \* soft nofile 65536
   - \* hard nofile 65536
+
+### 操作截图
+- 修改后的/etc/security/limits.conf示例
+![/etc/security/limits.conf文件截图](./limits.conf.PNG)
