@@ -14,7 +14,7 @@
 	 ![关闭开机自启的示例图](./cloudera-scm-server_off.PNG)
 	 - 关联数据库和CM $ sudo /usr/share/cmf/schema/scm_prepare_database.sh mysql cmserver cmserveruser password
 	 ![关联数据库和CM的示例图](./scm_prepare_database.PNG)
-	 - 关联显示“All done, your SCM database is configured correctly!”后，启动服务 $ sudo service cloudera-scm-server start (启动速度很慢，启动前可以虚拟机做个快照，以防启动过程出现意外，导致不得不去一个一个删掉启动时创建的一些数据，再重新开启服务)
+	 - 显示“All done, your SCM database is configured correctly!”后，启动服务 $ sudo service cloudera-scm-server start (启动速度很慢，启动前可以虚拟机做个快照，以防启动过程出现意外，导致不得不去一个一个删掉启动时创建的一些数据，再重新开启服务)
 	 - 查看日志 sudo tail -f /var/log/cloudera-scm-server/cloudera-scm-server.log
 	 - 如果日志内出现7180，就可以用浏览器浏览http://lion:7180
 	 ![CM_server启动的示例图1](./start_cloudera-scm-server_1.PNG)
