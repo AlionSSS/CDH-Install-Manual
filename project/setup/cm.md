@@ -27,9 +27,15 @@
 	- 输入hostname:elephant tiger horse monkey lion，然后search搜索，成功后继续
 	![指定要管理的主机截图1](./specify_hostname_1.PNG)
 	![指定要管理的主机截图1](./specify_hostname_2.PNG)
-	- 点击 More Options 
-		- 删除掉联网下载的所有项目
-		- 添加本地http服务仓库地址http://lion:8000
+	- 进入“集群安装-选择存储库”界面
+		1. 选择“使用Parcel”，点击更多选项
+		![示例1](./select_base_1.PNG)
+		2. 在弹出的界面中，删除所有远程URL
+		![示例2](./select_base_2.PNG)
+		3. 添加我们之前已经配置好的CDH包的HTTP仓库URL
+		![示例3](./select_base_3.PNG)
+		4. 点击保存更改，界面“CDH版本”处变化成我们自己的CDH包的版本
+		![示例4](./select_base_4.PNG)
 	- 配置Cloudera Manager Agent仓库 http://lion:8050
 	- 配置ssh免密登录（前面已经配置过）
 	- 如果需要非root执行，需要配置对应用户的“免密码执行sudo”权限（在/etc/sudoers中添加jerry   ALL=(ALL)       NOPASSWD:ALL）
