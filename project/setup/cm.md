@@ -36,10 +36,11 @@
 		![示例3](./select_base_3.PNG)
 		4. 点击保存更改，界面“CDH版本”处变化成我们自己的CDH包的版本
 		![示例4](./select_base_4.PNG)
-	- 配置Cloudera Manager Agent仓库 http://lion:8050
-	- 配置ssh免密登录（前面已经配置过）
-	- 如果需要非root执行，需要配置对应用户的“免密码执行sudo”权限（在/etc/sudoers中添加jerry   ALL=(ALL)       NOPASSWD:ALL）
-	- 5台动物服务器，mv /etc/yum.repos.d/CentOS-* /etc/yum.repos.d/bak/
+	- 继续，不要安装该处提示的JDK，因为前面我们已经安装过了
+	- 继续，不启用单用户模式
+	- 来到“集群安装-提供 SSH 登录凭据”页面
+	- 设置已经配好SSH的用户，确保每台服务器该用户名都已配置好SSH认证。如果需要非root执行，需要每台服务器配置对应用户的“免密码执行sudo”权限（在/etc/sudoers中添加jerry   ALL=(ALL)       NOPASSWD:ALL）
+	![提供 SSH 登录凭据截图](./set_ssh.PNG)
 	- 点击ok安装Agent，继续
 4. Get2EC2 VM浏览器 安装 hadoop集群 CDH
 	- 点击Custom	Services，选择HDFS YARN(MR2 Included)
