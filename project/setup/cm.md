@@ -22,8 +22,11 @@
 3. 使用浏览器进入http://lion:7180 页面，准备安装Agent
 	- 登录默认 账户:admin 密码:admin
 	![Web界面截图](./web_login.PNG)
-	- 选择Cloudera Enterprise Data Hub Edition Trial.继续
-	- 输入hostname:elephant tiger horse monkey lion，然后search，成功后继续
+	- 接受“最终用户许可条款和条件”，点击继续
+	- 选择Cloudera Enterprise的试用版（可以试用60天，结束后会自动退回普通版），继续
+	- 输入hostname:elephant tiger horse monkey lion，然后search搜索，成功后继续
+	![指定要管理的主机截图1](./specify_hostname_1.PNG)
+	![指定要管理的主机截图1](./specify_hostname_2.PNG)
 	- 点击 More Options 
 		- 删除掉联网下载的所有项目
 		- 添加本地http服务仓库地址http://lion:8000
