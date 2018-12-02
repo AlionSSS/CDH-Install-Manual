@@ -34,14 +34,18 @@
 		![示例2](./select_base_2.PNG)
 		3. 添加我们之前已经配置好的CDH包的HTTP仓库URL
 		![示例3](./select_base_3.PNG)
-		4. 点击保存更改，界面“CDH版本”处变化成我们自己的CDH包的版本
+		4. 点击保存更改，界面“CDH版本”处变化成我们自己的CDH包的版本，同时添加Cloudera Manager Agent的库
 		![示例4](./select_base_4.PNG)
 	- 继续，不要安装该处提示的JDK，因为前面我们已经安装过了
 	- 继续，不启用单用户模式
 	- 来到“集群安装-提供 SSH 登录凭据”页面
 	- 设置已经配好SSH的用户，确保每台服务器该用户名都已配置好SSH认证。如果需要非root执行，需要每台服务器配置对应用户的“免密码执行sudo”权限（在/etc/sudoers中添加jerry   ALL=(ALL)       NOPASSWD:ALL）
 	![提供 SSH 登录凭据截图](./set_ssh.PNG)
-	- 点击ok安装Agent，继续
+	- 配置无互联网环境的本地yum仓库文件
+		1. 将/etc/yum.repos.d/下的所有文件备份到bak目录
+		2. 新建文件cloudera-manager.repo，添加本地yum源信息
+	![配置本地yum仓库截图](./conf_yum_repo.PNG)
+	- jixu 
 4. Get2EC2 VM浏览器 安装 hadoop集群 CDH
 	- 点击Custom	Services，选择HDFS YARN(MR2 Included)
 	- 按文档配置集群的HDFS、CMS、YARN，继续
