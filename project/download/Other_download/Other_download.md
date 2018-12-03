@@ -10,4 +10,4 @@
 - [点我打包下载](./other_packages.tar.gz)
 
 ### 截图
-![其他依赖包截图](./other_packages.png)
+![其他依赖包截图](./other_packages.PNG)
