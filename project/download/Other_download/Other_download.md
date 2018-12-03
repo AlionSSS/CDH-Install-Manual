@@ -6,6 +6,8 @@
 - MySQL-python-1.2.3
 - openssl-devel-1.0.1
 
+注：1.安装包依赖、版本为CentOS6.5对应 2.需要自己下载的朋友，推荐在外网同系统服务器安装yum-plugin-downloadonly
+
 ### 下载地址 
 - [点我打包下载](./other_packages.tar.gz)
 
