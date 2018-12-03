@@ -35,6 +35,7 @@
 11. [上传JDBC包](./project/prepare/JDBC/JDBC.md)
 12. [MySQL安装与准备](./project/prepare/mysql/mysql.md)
 13. [配置本地yum源](./project/prepare/http/http.md)
+14. [安装系统依赖的其他安装包](./project/prepare/other_pack/other_pack.md)
 
 ## CM安装
 1. [开始安装CM5](./project/setup/cm.md)
