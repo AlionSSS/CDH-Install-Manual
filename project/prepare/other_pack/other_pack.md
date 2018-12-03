@@ -2,7 +2,7 @@
 
 Cloudera Manage的安装，除了自带的安装包外，还需要依赖其他多个对应版本的包，例如openssl。这样CM才能正常进行安装，不然总会在“群集安装-nstall Agents”步骤出错！
 
-### 操作（包括elephant tiger horse monkey lion）
+### 操作（所有节点）
 1. 在任意目录解压前面下载好的包 $tar -xvf other_packages.tar.gz
 2. 查看所有包 $ ls ./*
 3. 请按照下面给的顺序一一安装，不要乱序，容易出问题。
