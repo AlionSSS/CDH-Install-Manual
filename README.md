@@ -13,6 +13,7 @@
 - [CM安装包](./project/download/CM_download/CM_download.md)
 - [CDH安装包](./project/download/CDH_download/CDH_download.md)
 - [MySQL的JDBC包](./project/download/MySQL_JDBC_download/MySQL_JDBC_download.md)
+- [系统依赖的其他安装包](./project/download/Other_download/Other_download.md)
 - Cloudera提供的JDK安装包（上面的CM包中自带JDK安装包）
 
 	**注：1.Centos必须是64位 2.CM版本应大于等于CDH版本 3.JDK尽量选[Cloudera推荐的](https://www.cloudera.com/documentation/enterprise/release-notes/topics/rn_consolidated_pcm.html#pcm_jdk)**
