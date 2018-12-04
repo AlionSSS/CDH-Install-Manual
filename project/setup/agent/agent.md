@@ -25,21 +25,4 @@
 	- 点击继续，开始安装每个节点的Agent（此处最容易出问题的是yum本地源配置错误、CM依赖的其他安装包没安装正确）
 	![安装Agent截图1](./install_agent_1.PNG)
 	![安装Agent截图2](./install_agent_2.PNG)
-	- 点击继续安装CDH的Parcel包
-	![安装CDH的Parcel包截图](./install_parcel.PNG)
-	- 点击继续，开始检查主机正确性
-	![检查主机正确性截图](./node_check.PNG)
-2. Get2EC2 VM浏览器 安装 hadoop集群 CDH
-	- 点击Custom	Services，选择HDFS YARN(MR2 Included)
-	- 按文档配置集群的HDFS、CMS、YARN，继续
-	- 配置数据库地址、库名、用户、密码
-	- 修改日志保存位置
-	- 开始安装
-	- 等待安装结束，进入网页Home界面
-	```
-	如果出现时间不同步，检查各台服务器
-	ping 192.168.1.1 是否能ping通?
-	sudo ntpstat 查看是否是synchronised
-	如果不是，sudo service ntpd restart
-	可能要等5min才能完成同步
-	```
+
