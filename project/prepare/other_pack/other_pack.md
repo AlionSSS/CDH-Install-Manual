@@ -62,6 +62,7 @@ rpm -ivh openssl-devel/openssl-1.0.1e-57.el6.x86_64.rpm
 # 安装openssl - 完成安装
 rpm -ivh openssl-devel/openssl-devel-1.0.1e-57.el6.x86_64.rpm 
 ```
+4. 如果使用系统镜像盘yum安装的话，会出现版本不对的问题
 
 ### 截图
 ![其他依赖包截图](./setup_other_pack_0.PNG)
