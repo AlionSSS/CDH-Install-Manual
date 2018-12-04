@@ -25,7 +25,7 @@
   - 点击继续，完成 :)
   ![完成截图](./cdh_run_over.PNG)
  
-3. <font color='red'>如果不小心跳出了集群服务安装页面，请看这里</font>
+<font color='red'>3. 如果不小心跳出了集群服务安装页面，请看这里</font>
   - 访问lion的CM管理界面，例如 http://192.168.0.205:7180/cmf/home
   - 点击左上角的 Add Services
   ![点击安装服务截图](./cm_unknown.PNG)
