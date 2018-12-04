@@ -25,4 +25,5 @@
 	- 点击继续，开始安装每个节点的Agent（此处最容易出问题的是yum本地源配置错误、CM依赖的其他安装包没安装正确）
 	![安装Agent截图1](./install_agent_1.PNG)
 	![安装Agent截图2](./install_agent_2.PNG)
+	- Agent安装完成，准备安装CDH
 
