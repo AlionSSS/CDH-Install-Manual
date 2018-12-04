@@ -17,11 +17,12 @@ Java有很多版本，虽然多数版本都能让CDH集群运行起来，但是�
 	export PATH=$JAVA_HOME/bin:$PATH
 	```
 	- 使其生效 $ source /etc/profile
-6. 检查java是否配置良好
+6. 添加java默认链接 $ln -s /usr/java/jdk1.7.0_67-cloudera /usr/java/default
+7. 检查java是否配置良好
 	- $ java
 	- $ java -version
 	- $ which java (确认java是否指向cloudera提供的java安装的位置)
-7. 当然你想安装Java8也可以，cdh也支持。目前我使用过jdk-8u144，其他具体版本请参照[Cloudera官方推荐JDK的版本](https://www.cloudera.com/documentation/enterprise/release-notes/topics/rn_consolidated_pcm.html#pcm_jdk) 处的Oracle JDK 8 versions that are tested and recommended
+8. 当然你想安装Java8也可以，cdh也支持。目前我使用过jdk-8u144，其他具体版本请参照[Cloudera官方推荐JDK的版本](https://www.cloudera.com/documentation/enterprise/release-notes/topics/rn_consolidated_pcm.html#pcm_jdk) 处的Oracle JDK 8 versions that are tested and recommended
 
 ### 参考资料
 - [Cloudera官方文档 Java Development Kit Installation](https://www.cloudera.com/documentation/enterprise/latest/topics/cdh_ig_jdk_installation.html)
