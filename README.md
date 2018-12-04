@@ -42,7 +42,7 @@
 2. [安装每个节点的Agent服务](./project/setup/agent/agent.md)
 
 ## CDH安装
-- [开始安装CDH...哪里不会点哪里...So easy!!^_^~!）](./project/setup/cdh/cdh.md)
+- [开始安装CDH](./project/setup/cdh/cdh.md)...哪里不会点哪里...So easy!!^_^~!
 - 也可以联系我!=3=~ QQ: 444066154
 
 ## 界面预览
