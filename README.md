@@ -42,7 +42,7 @@
 2. [安装每个节点的Agent服务](./project/setup/agent/agent.md)
 
 ## CDH安装
-- [坑位（暂时请在网上搜索一下吧，很简单的QWQ!CDH几乎就是哪里不会点哪里...So easy!!^_^~!）](https://github.com/AlionSSS/CDH-Install-Manual)
+- [开始安装CDH...哪里不会点哪里...So easy!!^_^~!）](./project/setup/cdh/cdh.md)
 - 也可以联系我!=3=~ QQ: 444066154
 
 ## 界面预览
