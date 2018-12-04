@@ -42,6 +42,10 @@
 	- 设置已经配好SSH的用户，确保每台服务器该用户名都已配置好SSH认证。如果需要非root执行，需要每台服务器配置对应用户的“免密码执行sudo”权限（在/etc/sudoers中添加jerry   ALL=(ALL)       NOPASSWD:ALL）
 	![提供 SSH 登录凭据截图](./set_ssh.PNG)
 	- 点击继续，开始安装每个节点的Agent
+	![安装Agent截图1](./install_agent_1.PNG)
+	![安装Agent截图2](./install_agent_2.PNG)
+	- 点击继续安装CDH的Parcel包
+	![安装CDH的Parcel包截图](./install_parcel.PNG)
 4. Get2EC2 VM浏览器 安装 hadoop集群 CDH
 	- 点击Custom	Services，选择HDFS YARN(MR2 Included)
 	- 按文档配置集群的HDFS、CMS、YARN，继续
