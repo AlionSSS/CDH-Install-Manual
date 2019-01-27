@@ -19,7 +19,8 @@
 3. 创建cloudera-repo.repo文件，并加入HTTP仓库路径等信息（具体操作请看截图）
 
 ### 参考资料
-- [Cloudera的Using an Internal Parcel Repository资料地址](https://www.cloudera.com/documentation/enterprise/latest/topics/cm_ig_create_local_parcel_repo.html)
+- [Cloudera: Using an Internal Parcel Repository](https://www.cloudera.com/documentation/enterprise/latest/topics/cm_ig_create_local_parcel_repo.html)
+- [Cloudera: Configuring a Local Package Repository](https://www.cloudera.com/documentation/enterprise/latest/topics/cm_ig_create_local_package_repo.html)
 
 ### 操作截图
 - 开启httpd服务
