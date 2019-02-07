@@ -62,7 +62,9 @@ rpm -ivh openssl-devel/openssl-1.0.1e-57.el6.x86_64.rpm
 # 安装openssl - 完成安装
 rpm -ivh openssl-devel/openssl-devel-1.0.1e-57.el6.x86_64.rpm 
 ```
-注：如果使用系统镜像盘yum安装的话，会出现版本不对的问题
+### 注意
+- 如果使用系统镜像盘yum安装的话，会出现版本不对的问题
+- 如果CentOS没按照前面推荐的安装，可能会出现缺少部分依赖的问题，你需要自己手动下载（或者联网自动下载）
 
 ### 截图
 ![其他依赖包截图](./setup_other_pack_0.PNG)
