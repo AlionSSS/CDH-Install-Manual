@@ -21,7 +21,7 @@
 ## CentOS安装
 - [点我查看安装详细内容](./project/CentOS_install/CentOS_install.md)
 
-## 环境准备与y
+## 环境准备与优化
 1. [架构理解，准备服务器](./project/prepare/cm_framework/cm_framework.md)
 2. [关闭防火墙](./project/prepare/stop_firewall/stop_firewall.md)
 3. [配置hostname、静态IP、hosts文件](./project/prepare/host_ip/host_ip.md)
