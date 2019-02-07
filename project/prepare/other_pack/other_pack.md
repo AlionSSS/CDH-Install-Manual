@@ -64,7 +64,8 @@ rpm -ivh openssl-devel/openssl-devel-1.0.1e-57.el6.x86_64.rpm
 ```
 ### 注意
 - 如果使用系统镜像盘yum安装的话，会出现版本不对的问题
-- 如果CentOS没按照前面推荐的安装，可能会出现缺少部分依赖的问题，你需要自己手动下载（或者联网自动下载）
+- 如果CentOS没按照前面[推荐的安装](https://github.com/AlionSSS/CDH-Install-Manual/blob/master/project/CentOS_install/CentOS_install.md)，还可能会出现缺少部分依赖的问题，你需要自己手动下载（或者联网自动下载）
+- 另下载包方面，推荐使用yum-plugin-downloadonly
 
 ### 截图
 ![其他依赖包截图](./setup_other_pack_0.PNG)
