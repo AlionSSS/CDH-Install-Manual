@@ -10,7 +10,7 @@ Linux默认可以打开的文件数量最大数量是1024，作为大数据服�
 - $ vim /etc/security/limits.conf
 - 修改用户jeryy的限制
   - jerry soft nofile 65536
-  - jeryy hard nofile 65536
+  - jerry hard nofile 65536
 - 修改所有用户的限制（推荐只做单个用户的修改，不做全部的修改）
   - \* soft nofile 65536
   - \* hard nofile 65536
