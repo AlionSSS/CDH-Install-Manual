@@ -14,7 +14,7 @@ NTP服务为集群提供了时间同步服务，在CDH集群中各个组件需�
 	1. 启动命令 $ service ntpd start
 	2. 查看同步状态 $ ntpstat
 	3. 如果出现 synchronised to NTP server (192.168.112.101) 即同步成功
-	4. 查看当前同步设置 $ ntpq -q 
+	4. 查看当前同步设置 $ ntpq -p 
 	
 **注意事项：**
 1. 网段与IP请参考自身情况设置 
