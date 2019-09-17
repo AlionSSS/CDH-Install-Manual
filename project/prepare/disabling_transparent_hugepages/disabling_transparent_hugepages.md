@@ -11,6 +11,7 @@ CentOS6引入了THP的特性，优化了内存申请的效率，而Hadoop是高�
 	- 添加下面两句
 	- echo never > /sys/kernel/mm/redhat_transparent_hugepage/defrag
 	- echo never > /sys/kernel/mm/redhat_transparent_hugepage/enabled
+- 注：CentOS7中前缀路径是/sys/kernel/mm/transparent_hugepage
 
 ### 参考资料
 - [Cloudera的Optimizing Performance in CDH资料地址](https://www.cloudera.com/documentation/enterprise/latest/topics/cdh_admin_performance.html#cdh_performance__section_hw3_sdf_jq)
