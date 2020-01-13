@@ -4,13 +4,13 @@ CentOS6引入了THP的特性，优化了内存申请的效率，而Hadoop是高�
 
 ### 操作(包括5台服务器)
 - 关闭THP
-	$ echo never > /sys/kernel/mm/redhat_transparent_hugepage/defrag
-	$ echo never > /sys/kernel/mm/redhat_transparent_hugepage/enabled
+  - $ echo never > /sys/kernel/mm/redhat_transparent_hugepage/defrag
+  - $ echo never > /sys/kernel/mm/redhat_transparent_hugepage/enabled
 - 设置开机自动关闭THP
-	- vim /etc/rc.local
-	- 添加下面两句
-	- echo never > /sys/kernel/mm/redhat_transparent_hugepage/defrag
-	- echo never > /sys/kernel/mm/redhat_transparent_hugepage/enabled
+  - vim /etc/rc.local
+  - 添加下面两句
+  - echo never > /sys/kernel/mm/redhat_transparent_hugepage/defrag
+  - echo never > /sys/kernel/mm/redhat_transparent_hugepage/enabled
 - 注：CentOS7中前缀路径是/sys/kernel/mm/transparent_hugepage
 
 ### 参考资料
