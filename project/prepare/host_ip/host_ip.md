@@ -10,7 +10,7 @@
 ### 修改hostname
 - 修改5台服务器各自对应的hostname
 - 示例 elephant
-	- $ vim /etc/sysconfig/network
+	- $ vim /etc/sysconfig/network (CentOS7为/etc/hostname文件)
 	- 编辑HOSTNAME=elephant, 保存
 	- 关机后将永久生效
 	- 临时生效命令 $ hostname elephant
