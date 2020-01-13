@@ -8,7 +8,7 @@
 		- 回车、回车、回车（全部默认，或者你也可以设定passphrase，这样的话，在后面安装集群时需要你填写passphrase）
 		- $ cd ~/.ssh
 		- $ ls 查看当前目录下生成的密钥、公钥	
-2. 将公钥上传到要登录的服务器的root账户（elephant tiger horse monkey lion）
+2. 将公钥上传到要登录的服务器的root账户（elephant tiger horse monkey lion）（普通用户也可以，但是需要在/etc/sudoers中添加 用户名 ALL=(ALL) NOPASSWD:ALL）
 	- lion(非root，普通账户)下执行:
 		- $ ssh-copy-id root@elephant (还包括tiger horse monkey lion)
 		- 输入elephant的root账户的密码，即可完成
