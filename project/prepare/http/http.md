@@ -3,11 +3,11 @@
 
 ### 操作1(选择在lion部署）
 1. 如果按照之前的CentOS安装步骤，那么系统是默认自带Apache HTTP服务的
-  - Apache HTTP下载地址：http://httpd.apache.org/download.cgi
-  - 如果你连接了外网的话，执行yum安装 $ yum install httpd -y
+    - Apache HTTP下载地址：http://httpd.apache.org/download.cgi
+    - 如果你连接了外网的话，执行yum安装 $ yum install httpd -y
 2. 开启httpd服务 
-  - CentOS6 $ service httpd start
-  - CentOS7 $ systemctl start httpd
+    - CentOS6 $ service httpd start
+    - CentOS7 $ systemctl start httpd
 3. 尝试使用浏览器访问其Web UI界面 例如：http://lion
 4. 将下载的cm和cdh包都存到/var/www/html下
 5. 解压cm包 $tar -xvf cm5.16.1-centos6.tar.gz
