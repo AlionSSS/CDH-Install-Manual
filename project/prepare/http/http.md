@@ -27,7 +27,7 @@
 
 ![开启httpd服务](./httpd_start.png)
 
-- Apache界面
+- Apache界面（里面的owo域名，你用lion就可以了）
 
 ![Apache界面](./http_web_ui.png)
 
