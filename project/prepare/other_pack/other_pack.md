@@ -1,7 +1,7 @@
 ## 安装系统依赖的其他包
 
 - Cloudera Manage的安装，除了自带的安装包外，还需要依赖其他多个对应版本的包，例如openssl。这样CM才能正常进行安装，不然总会在[“群集安装-Install Agents”](../../setup/agent/agent.md#install-agent)步骤出错！
-- *注意：缺失的依赖包的种类、数量会和你安装系统时的选项相关。*
+- *注意：缺失的依赖包的种类、数量会和你安装系统时的选项相关，所以你缺的不一定是这些，得自己找（这点最麻烦=_=!）。*
 
 ### 操作（所有节点）
 1. 在任意目录解压[前面下载](../../download/Other_download/Other_download.md)好的包 $tar -xvf other_packages.tar.gz
