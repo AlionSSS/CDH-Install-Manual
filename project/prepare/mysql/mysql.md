@@ -6,7 +6,9 @@
 2. 下载与安装MySQL(关于版本的选择，可参考[Cloudera官方文档MySQL Support across CM/CDH 5 Releases](https://www.cloudera.com/documentation/enterprise/release-notes/topics/rn_consolidated_pcm.html#cdh_cm_supported_db))
 	- 本次选择的服务器是将要安装CM的服务器lion
 	- 从官网下载https://dev.mysql.com/downloads/mysql/
-	- 选择需满足两点：1.MySQL Community Server 5.5.58 2.Red Hat Linux 6
+	- 选择需满足两点：
+	  1.MySQL Community Server 5.5.58 
+	  2.Red Hat Linux 6
 	- 下载RPM Bundle
 	- 使用tar -xvf解压RPM Bundle，生成的文件包括几个RPM包
 	- 使用rpm -ivh安装所有下载的rpm包，操作如下
