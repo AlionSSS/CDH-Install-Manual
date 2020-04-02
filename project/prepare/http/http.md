@@ -39,6 +39,6 @@
 
 ![http仓库cdh](./http_cdh.png)
 
-- 配置yum源仓库
+- 配置yum源仓库（需要自己创建cloudera-repo.repo文件，然后添加内容）
 
 ![配置yum源仓库](./conf_yum_repo.PNG)
