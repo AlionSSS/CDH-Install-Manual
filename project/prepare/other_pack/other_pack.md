@@ -4,7 +4,7 @@
 - *注意：缺失的依赖包的种类、数量会和你安装系统时的选项相关。*
 
 ### 操作（所有节点）
-1. 在任意目录解压前面下载好的包 $tar -xvf other_packages.tar.gz
+1. 在任意目录解压[前面下载](../../download/Other_download/Other_download.md)好的包 $tar -xvf other_packages.tar.gz
 2. 查看所有包 $ ls ./*
 3. 请按照下面给的顺序一一安装，不要乱序，容易出问题。
 
