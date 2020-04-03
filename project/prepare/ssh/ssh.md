@@ -2,14 +2,17 @@
 配置公钥、私钥，在服务器之间交换，可以形成服务器之间访问的有效认证，省去每次输入密码的麻烦。Hadoop集群之间的访问也是需要ssh免密码认证的。
 
 ### 操作
+0. 注意
+    - 下面的用户你可以直接全部使用root用户，或者全部使用一个普通用户（推荐，如果你是第一次学习那就root）
+    - 如果使用普通用户，需要在/etc/sudoers中添加 用户名 ALL=(ALL) NOPASSWD:ALL
 1. 在CM Service的服务器（lion）上生成公钥、私钥
-	- lion(非root，普通账户)下执行:
+	- lion(root用户)下执行:
 		- $ ssh-keygen -t rsa 
 		- 回车、回车、回车（全部默认，或者你也可以设定passphrase，这样的话，在后面安装集群时需要你填写passphrase）
 		- $ cd ~/.ssh
 		- $ ls 查看当前目录下生成的密钥、公钥	
-2. 将公钥上传到要登录的服务器的root账户（elephant tiger horse monkey lion）（普通用户也可以，但是需要在/etc/sudoers中添加 用户名 ALL=(ALL) NOPASSWD:ALL）
-	- lion(非root，普通账户)下执行:
+2. 将公钥上传到要登录的服务器的root账户（elephant tiger horse monkey lion）
+	- lion(root用户)下执行:
 		- $ ssh-copy-id root@elephant (还包括tiger horse monkey lion)
 		- 输入elephant的root账户的密码，即可完成
 3. 查看生成的文件
