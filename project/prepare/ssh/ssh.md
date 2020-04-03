@@ -29,6 +29,8 @@
 - 解决：在lion下执行 $ ssh-add ~/.ssh/id_rsa，然后重新执行$ ssh-copy-id root@elephant，最后检验ssh登录
 
 ### 截图
+- 下面的截图用户名有点不对，你只需要全部统一用root，或者全部统一用普通用户（带无密码权限）即可
+
 - 在CM Service的服务器（lion）上生成公钥、私钥
 
 ![生成公钥、私钥截图](./ssh_gen.png)
