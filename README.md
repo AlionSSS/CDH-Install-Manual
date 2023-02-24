@@ -1,4 +1,6 @@
 # CDH安装手册
+- 沟通QQ群 `670312120`
+
 ## 前言
 > CDH是[Cloudera公司](https://www.cloudera.com/)对应Hadoop的一个发行版本，具有易于安装、部署、操作、图形化界面等特点。本手册致力于帮助新手安装、部署CDH集群，顺利渡过CDH集群的初期问题。需要注意的是，本手册基于的是实验环境，并非实际生产环境，具体参数需要根据实际场景修改。
 
@@ -43,7 +45,7 @@
 
 ## CDH安装
 - [开始安装CDH](./project/setup/cdh/cdh.md)...哪里不会点哪里...So easy!!^_^~!
-- 也可以联系我!=3=~ QQ: 444066154
+- 也可以联系我!
 
 ## 界面预览
 ![Cloudera-Manager截图](./images/Cloudera-Hadoop-Manager.png)
